@@ -1,5 +1,1 @@
-<?php
-
-echo "hello from page.php";
-
-?>
+<?php get_header();?>
