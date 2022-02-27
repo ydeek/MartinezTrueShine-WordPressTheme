@@ -12,3 +12,13 @@
 
 */
 
+:root {
+    --mainFont : 'Staatliches', cursive;
+    --textFont: 'Open Sans', sans-serif;
+    --secondaryFont : 'Raleway', sans-serif;
+ 
+}
+
+body {
+    font-family: var(--textFont);
+}
