@@ -13,9 +13,18 @@
 */
 
 :root {
+    /** Fonts **/
     --mainFont : 'Staatliches', cursive;
     --textFont: 'Open Sans', sans-serif;
     --secondaryFont : 'Raleway', sans-serif;
+
+    /** Colors **/
+    --primary:#0f94fd;
+    --green:#0fa958;
+    --yellow: #ffc700;
+
+    --white:#ffffff;
+    --black:#000000;
  
 }
 
