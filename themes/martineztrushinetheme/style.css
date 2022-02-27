@@ -92,26 +92,20 @@ img {
 }
 
 /** Utilities **/
-
-
-/** Header **/
-
-
-
-.site-header {
-    background-color: var(--primary);
-
-  
+.section {
+    padding: 5ren 0;
 }
 
-
+/** Header **/
+.site-header {
+    background-color: var(--primary); 
+}
 
 @media (min-width:768px) {
     .navbar {
         
         justify-content: space-between;
-    }
-    
+    }  
 }
 
 /** Menu **/
@@ -132,8 +126,6 @@ img {
     .navbar li:last-of-type {
         margin-right:0;
     }
-
-   
 
 }
 .navbar a {
@@ -211,3 +203,16 @@ img {
     }
     
 }
+
+/** Page Template **/
+
+.page.no-sidebar {
+    max-width: 80rem;
+    margin:0 auto;
+}
+
+ .page h1 {
+     margin-bottom:4rem;
+ }
+
+ /** Page with sidebars **/
