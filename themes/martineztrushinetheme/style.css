@@ -142,6 +142,20 @@ img {
     border-bottom: 3px solid var(--blue);
 }
 
+/** Mobile Menu **/
+@media (min-width:768px) {
+    .slicknav_menu {
+        display: none;
+    }
+    
+}
+
+
+.slicknav_menu a{
+    background-color: var(--primary);
+    color:var(--black);
+    font-family: var(--mainFont);
+}
 
 /** Footer **/
 

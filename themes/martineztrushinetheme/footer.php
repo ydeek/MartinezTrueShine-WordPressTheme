@@ -16,6 +16,8 @@ wp_nav_menu( $args);
 
 </footer>
 
+<?php wp_footer(); ?>
+
 
 
 </body>
