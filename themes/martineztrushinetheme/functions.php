@@ -35,3 +35,17 @@ wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', ar
 }
 
 add_action('wp_enqueue_scripts', 'martineztrushine_scripts');
+
+
+// Enable Feature imges and other stuff 
+
+function martineztrushine_setup() {
+
+   
+    // Add featured image
+    add_theme_support('post-thumbnails');
+
+    // SEO Titles
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'martineztrushine_setup'); // When the theme is activated and ready!

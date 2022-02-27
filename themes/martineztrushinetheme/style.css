@@ -80,11 +80,15 @@ ul {
     max-width: 120rem; /** 1200px **/
     width: 95%;
     margin: 0 auto;
+   
 }
+
+
 
 img {
     max-width: 100%;
     height: auto;
+
 }
 
 /** Utilities **/

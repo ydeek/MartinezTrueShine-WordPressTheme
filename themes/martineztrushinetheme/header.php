@@ -17,8 +17,7 @@
     
  <!-- navigation bar-->
  <header class="site-header">
- <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class=" container navbar navbar-expand-lg navbar-light">
  <!-- site logo -->
  <div class="logo">
   <a class="navbar-brand" href="<?php echo home_url(); ?>">
