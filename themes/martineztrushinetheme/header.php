@@ -20,10 +20,11 @@
  <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
  <!-- site logo -->
+ <div class="logo">
   <a class="navbar-brand" href="<?php echo home_url(); ?>">
   <img src="<?php echo get_template_directory_uri() . "/img/Logo.png" ?>" alt="site logo" />
 </a>  
-
+</div>
        
 <!--Rendering menu -->
 <?php 
