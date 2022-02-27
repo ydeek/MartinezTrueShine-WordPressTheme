@@ -11,17 +11,19 @@
     
     <!--Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-    
+
 </head>
 <body>
     
  <!-- navigation bar-->
-<<nav class="navbar navbar-expand-lg navbar-light">
+ <header class="site-header">
+ <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
  <!-- site logo -->
   <a class="navbar-brand" href="<?php echo home_url(); ?>">
   <img src="<?php echo get_template_directory_uri() . "/img/Logo.png" ?>" alt="site logo" />
 </a>  
-</nav>
+
        
 <!--Rendering menu -->
 <?php 
@@ -32,3 +34,7 @@ $args = array(
 );
 wp_nav_menu( $args);
 ?>
+
+</nav>
+</div>
+</header>

@@ -19,11 +19,12 @@
     --secondaryFont : 'Raleway', sans-serif;
 
     /** Colors **/
-    --primary:#0f94fd;
+    --primary:#ffffff;
+    --blue:#0f94fd;
     --green:#0fa958;
     --yellow: #ffc700;
 
-    --white:#ffffff;
+   
     --black:#000000;
  
 }
@@ -75,4 +76,29 @@ ul {
     margin:0;
 }
 
+.container {
+    max-width: 120rem; /** 1200px **/
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /** Utilities **/
+
+
+/** Header **/
+
+.site-header {
+    background-color: var(--primary);
+
+  
+}
+
+.navbar {
+
+    justify-content: space-between;
+}
