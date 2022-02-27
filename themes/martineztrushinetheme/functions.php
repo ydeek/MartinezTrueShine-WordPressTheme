@@ -54,3 +54,21 @@ function martineztrushine_setup() {
     add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme', 'martineztrushine_setup'); // When the theme is activated and ready!
+
+
+// Creates a Widget Zone 
+
+function martineztrushine_widgets(){
+    register_sidebar(array(
+        'name' => 'sidebar',
+        'id' => 'sidebar',
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+
+    
+}
+
+add_action('widgets_init', 'martineztrushine_widgets');
