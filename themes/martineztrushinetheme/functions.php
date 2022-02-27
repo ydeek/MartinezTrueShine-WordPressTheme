@@ -40,7 +40,12 @@ add_action('wp_enqueue_scripts', 'martineztrushine_scripts');
 // Enable Feature imges and other stuff 
 
 function martineztrushine_setup() {
-
+    // Register new image size 
+    add_image_size('square', 350,350,true);
+    add_image_size('portrait', 350, 720, true);
+    add_image_size('box', 400, 375, true);
+    add_image_size('mediumSize', 700, 400, true);
+    add_image_size('blog', 966, 644, true);
    
     // Add featured image
     add_theme_support('post-thumbnails');
