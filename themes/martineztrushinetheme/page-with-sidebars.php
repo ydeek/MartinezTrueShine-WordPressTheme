@@ -6,6 +6,7 @@
 get_header(); ?>
 <div class="page-content">
 <main class="container page text-right section with-sidebar">
+  
 <?php while(have_posts()) : the_post();   ?>
 
 <h1><?php the_title(); ?> </h1>
@@ -17,15 +18,12 @@ endif;
 ?>
  
 
-<div>
  <?php the_content(); ?>
- </div>
-<?php endwhile; ?>
-</div>
-<aside>
-    <h2>Sidebar Here</h2>
-</aside>
 
+<?php endwhile; ?>
+
+
+<?php get_sidebar(); ?>
 </main>
 
 <?php get_footer(); ?>
